@@ -1,6 +1,7 @@
 <template>
   <section>
     <header>{{name + key +title}}</header>
+    <footer>首页底部</footer>
   </section>
 </template>
 
