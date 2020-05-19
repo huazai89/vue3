@@ -1,6 +1,6 @@
 <template>
   <section>
-    <header>{{name + home}}</header>
+    <header>{{name + title}}</header>
     <footer>首页底部</footer>
   </section>
 </template>
