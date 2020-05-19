@@ -1,6 +1,7 @@
 <template>
   <section>
-    <header>{{title}}</header>
+    <header>{{name + home}}</header>
+    <footer>首页底部</footer>
   </section>
 </template>
 
@@ -8,7 +9,8 @@
   export default {
     data() {
       return {
-        title: 'home'
+        title: 'home',
+        name: 'my'
       }
     }
   }
